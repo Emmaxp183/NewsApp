@@ -18,6 +18,7 @@
 		FAF9509F28A31D3B000F2C3D /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9509E28A31D3B000F2C3D /* ArticleModel.swift */; };
 		FAF950A128A33990000F2C3D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF950A028A33990000F2C3D /* DetailViewController.swift */; };
 		FAF950A328A34393000F2C3D /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF950A228A34393000F2C3D /* ArticleCell.swift */; };
+		FAF950A528A3DCC6000F2C3D /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF950A428A3DCC6000F2C3D /* CacheManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		FAF9509E28A31D3B000F2C3D /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
 		FAF950A028A33990000F2C3D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FAF950A228A34393000F2C3D /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		FAF950A428A3DCC6000F2C3D /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				FAF9509428A31801000F2C3D /* Info.plist */,
 				FAF950A028A33990000F2C3D /* DetailViewController.swift */,
 				FAF950A228A34393000F2C3D /* ArticleCell.swift */,
+				FAF950A428A3DCC6000F2C3D /* CacheManager.swift */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF950A328A34393000F2C3D /* ArticleCell.swift in Sources */,
+				FAF950A528A3DCC6000F2C3D /* CacheManager.swift in Sources */,
 				FAF9509D28A31C6D000F2C3D /* ArticleService.swift in Sources */,
 				FAF9509B28A31AE9000F2C3D /* Article.swift in Sources */,
 				FAF9508B28A31800000F2C3D /* ViewController.swift in Sources */,
