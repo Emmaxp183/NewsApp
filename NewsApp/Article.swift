@@ -8,12 +8,10 @@
 import Foundation
 
 struct Article: Decodable{
-   
     var author: String?
     var title: String?
     var discribtion: String?
     var url: String?
     var urlToImage: String?
     var published: String?
-
 }
