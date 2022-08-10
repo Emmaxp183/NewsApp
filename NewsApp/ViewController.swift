@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     var model = ArticleModel()
+    var articles = [Article]()
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Get the articles from the model
@@ -19,7 +21,7 @@ class ViewController: UIViewController {
 
 extension ViewController:ArticleModelProtocol{
     // Article Model Protocol Methods
-    func articleRetrieved(_article: [Article]) {
-        print("hello World")
+    func articleRetrieved(_ article: [Article]) {
+        self.articles = article
     }
 }
